@@ -55,8 +55,9 @@ for i in yDomain:
 
 plot(xDomain, bubTempList, "b-", label="Bubble-Point Curve")
 plot(yDomain, dewTempList, "r-", label="Dew-Point Curve")
-xlabel("Mol Fraction of Component 1 (x,y)")
+xlabel("Mol Fraction of Substance 1 (x,y)")
 ylabel("Temperature(C)")
 legend()
-title("T-xy")
+title("T-xy Diagram")
 show()
+
