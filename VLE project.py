@@ -31,13 +31,13 @@ def bubPointTemp(x1, substance1, substance2, mmHgPressure):
     def bubPointEqu(tempC):
         x2 = 1 - x1
         return x1*antoinePressure(substance1, tempC) + x2*antoinePressure(substance2, tempC) - mmHgPressure
-    return float(fsolve(bubPointEqu, 106)[0])
+    return float(fsolve(bubPointEqu, 300)[0])
 
 def dewPointTemp(y1, substance1, substance2, mmHgPressure):
     def dewPointEqu(tempC):
         y2 = 1 - y1
         return y1*mmHgPressure/antoinePressure(substance1, tempC) + y2*mmHgPressure/antoinePressure(substance2, tempC) - 1
-    return float(fsolve(dewPointEqu, 106)[0])
+    return float(fsolve(dewPointEqu, 300)[0])
 
 xDomain = linspace(0,1,100)
 yDomain = linspace(0,1,100)
@@ -60,4 +60,5 @@ ylabel("Temperature(C)")
 legend()
 title("T-xy Diagram")
 show()
+
 
