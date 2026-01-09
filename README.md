@@ -16,18 +16,10 @@ Antoine constants are uniquely assigned based on the chosen liquid species.
 Two equations are set up in order to compute bubble-point and dew-point temperatures numerically using **fsolve** in **SciPy**. Both equations are derived from **Raoult's Law** and the **Antoine Equation**. 
 
 ### Equation for numerically computing temperature at each liquid mole composition (bubble-point curve):
-
-<p align="center">
-  <img src="https://latex.codecogs.com/png.latex?x_1\,10^{A_1-\frac{B_1}{T+C_1}}+x_2\,10^{A_2-\frac{B_2}{T+C_2}}-P_{total}=0" />
-</p>
-
+![Bubble Point](https://latex.codecogs.com/png.latex?\dpi{120}x_1\,10^{A_1-\frac{B_1}{T+C_1}}+x_2\,10^{A_2-\frac{B_2}{T+C_2}}-P_{total}=0)
 
 ### Equation for numerically computing temperature at each vapour mole composition (dew-point curve): 
-
-<p align="center">
-  <img src="https://latex.codecogs.com/png.latex?y_1\,\frac{P_{total}}{10^{A_1-\frac{B_1}{T+C_1}}}+y_2\,\frac{P_{total}}{10^{A_2-\frac{B_2}{T+C_2}}}-1=0" />
-</p>
-
+![Dew Point](https://latex.codecogs.com/png.latex?\dpi{120}y_1\,\frac{P_{total}}{10^{A_1-\frac{B_1}{T+C_1}}}+y_2\,\frac{P_{total}}{10^{A_2-\frac{B_2}{T+C_2}}}-1=0)
 
 ## Examples of Usage
 
