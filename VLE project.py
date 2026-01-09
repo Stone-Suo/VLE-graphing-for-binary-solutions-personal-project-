@@ -7,7 +7,12 @@ Created on Mon Jan  5 19:33:08 2026
 
 """
 constants data for temp in C and pressure in mmHg
+
+Antoine constants
 https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118135341.app1
+
+README conventions
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 """
 
 from numpy import *
@@ -75,6 +80,7 @@ ylabel("Temperature(C)")
 legend()
 title("T-xy Diagram")
 show()
+
 
 
 
