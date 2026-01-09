@@ -6,7 +6,7 @@ A **T-xy diagram** displays the mole composition (in both liquid and vapour phas
 
 ## Features
 1. A binary mixture can be inputted by selecting the first and second liquid species from a list of various different liquids (the first species selected, whose mole composition is in the horizontal axis of the diagram, should convetionally be the more volatile species)
-2. A 
+2. A pressure (in 
 3. The bubble-point and dew-point temperatures are calculated at
 
 ## Logic & Applied Equations
