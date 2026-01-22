@@ -25,6 +25,12 @@ Two equations are set up in order to compute bubble-point and dew-point temperat
 *Figure 1: T-xy diagram generated for a mixture of Benzene and Toluene with pressure set at 760mmHg*
 <img width="777" height="563" alt="image" src="https://github.com/user-attachments/assets/205271bb-e4ca-49a3-a60c-2d4c707bea30" />
 
+*Figure 2: T-xy diagram generated for a mixture of N-heptane and N-hexane with pressure set at 1000mmHg*
+<img width="777" height="563" alt="image" src="https://github.com/user-attachments/assets/82ab7580-8b33-4dcf-8351-4a135f4fc615" />
+
+*Figure 3: T-xy diagram generated for a mixture of Ethanol and Water with pressure set at 900mmHg (with respect to the mole fraction of Ethanol)*
+<img width="777" height="563" alt="image" src="https://github.com/user-attachments/assets/bc7ccef0-2fa4-4fcd-8f29-4d6e887b1961" />
+
 ## Assumptions & Limitations
 
 ## Future Work 
