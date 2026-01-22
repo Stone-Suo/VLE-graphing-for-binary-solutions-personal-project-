@@ -22,8 +22,8 @@ Two equations are set up in order to compute bubble-point and dew-point temperat
 ![Dew Point](https://latex.codecogs.com/png.latex?\dpi{120}\color{white}{y_1\frac{P_{total}}{10^{A_1-\frac{B_1}{T+C_1}}}+y_2\frac{P_{total}}{10^{A_2-\frac{B_2}{T+C_2}}}-1=0})
 
 ## Examples of Usage
-<img width="777" height="563" alt="image" src="https://github.com/user-attachments/assets/205271bb-e4ca-49a3-a60c-2d4c707bea30" />
 *Figure 1: T-xy diagram generated for a mixture of Benzene and Toluene with pressure set at 760mmHg*
+<img width="777" height="563" alt="image" src="https://github.com/user-attachments/assets/205271bb-e4ca-49a3-a60c-2d4c707bea30" />
 
 ## Assumptions & Limitations
 
