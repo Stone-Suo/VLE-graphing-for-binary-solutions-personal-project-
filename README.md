@@ -23,7 +23,7 @@ Two equations are set up in order to compute bubble-point and dew-point temperat
 
 ## Examples of Usage
 <img width="777" height="563" alt="image" src="https://github.com/user-attachments/assets/205271bb-e4ca-49a3-a60c-2d4c707bea30" />
-
+*Figure 1: T-xy diagram generated for a mixture of Benzene and Toluene with pressure set at 760mmHg*
 
 ## Assumptions & Limitations
 
